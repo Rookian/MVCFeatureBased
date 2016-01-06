@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+   
+    <div class="container-fluid m-a m-b-lg">
+        @RenderBody()
+    </div>
+
+    <div class="navbar navbar-fixed-bottom navbar-light bg-faded">
+        <div class="navbar-nav">
+            <span class="text-muted pull-right">©</span>
+        </div>
+    </div>
+
+    @RenderSection("scripts", false)
+
+</body>
+
+</html>
