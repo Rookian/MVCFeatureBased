@@ -197,7 +197,6 @@
     <Compile Include="Infrastructure\Clock.cs" />
     <Compile Include="Infrastructure\MediatR\JSONRedirectResult.cs" />
     <Compile Include="Infrastructure\MVC\UrlHelper.cs" />
-    <Compile Include="Infrastructure\Serialization\CustomJsonResult.cs" />
     <Compile Include="Infrastructure\UserException.cs" />
     <Compile Include="Infrastructure\MediatR\BaseController.cs" />
     <Compile Include="Infrastructure\MediatR\EmptyActionResult.cs" />
